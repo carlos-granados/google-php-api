@@ -15,8 +15,6 @@
  * limitations under the License.
  */
 
-require_once "external/URITemplateParser.php";
-require_once "service/apiUtils.php";
 
 /**
  * This class implements the RESTful transport of apiServiceRequest()'s

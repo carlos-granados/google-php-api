@@ -15,9 +15,6 @@
  * limitations under the License.
  */
 
-require_once "apiAuthNone.php";
-require_once "apiOAuth.php";
-require_once "apiOAuth2.php";
 
 /**
  * Abstract class for the Authentication in the API client

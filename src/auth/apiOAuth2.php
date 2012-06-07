@@ -15,9 +15,6 @@
  * limitations under the License.
  */
 
-require_once "apiVerifier.php";
-require_once "apiLoginTicket.php";
-require_once "service/apiUtils.php";
 
 /**
  * Authentication class that deals with the OAuth 2 web-server authentication flow

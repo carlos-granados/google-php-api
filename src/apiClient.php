@@ -46,11 +46,29 @@ if (file_exists($cwd . '/local_config.php')) {
 
 // Include the top level classes, they each include their own dependencies
 require_once 'service/apiModel.php';
+require_once 'service/apiServiceResource.php';
+require_once 'service/apiServiceRequest.php';
+require_once 'service/apiBatch.php';
 require_once 'service/apiService.php';
 require_once 'service/apiServiceRequest.php';
 require_once 'auth/apiAuth.php';
+require_once "auth/apiAuthNone.php";
+require_once "external/OAuth.php";
+require_once "auth/apiOAuth.php";
+require_once "auth/apiVerifier.php";
+require_once "auth/apiPemVerifier.php";
+require_once "auth/apiLoginTicket.php";
+require_once "service/apiUtils.php";
+require_once "auth/apiOAuth2.php";
 require_once 'cache/apiCache.php';
 require_once 'io/apiIO.php';
+require_once 'io/apiHttpRequest.php';
+require_once 'io/apiCacheParser.php';
+require_once 'io/apiCurlIO.php';
+require_once "external/URITemplateParser.php";
+require_once "service/apiUtils.php";
+require_once 'io/apiREST.php';
+require_once 'io/apiRPC.php';
 require_once('service/apiMediaFileUpload.php');
 
 /**
